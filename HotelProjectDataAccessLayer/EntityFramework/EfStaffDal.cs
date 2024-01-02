@@ -10,7 +10,7 @@ using HotelProjectDataAccessLayer.Repositories;
 
 namespace HotelProjectDataAccessLayer.EntityFramework
 {
-    internal class EfStaffDal:GenericRepository<Staff>, ISatffDal
+    public class EfStaffDal:GenericRepository<Staff>, IStaffDal
     {
         public EfStaffDal(Context context):base(context)  
         {

@@ -11,9 +11,9 @@ namespace HotelProject.BusinessLayer.Concrete
 {
     public class StaffManager : IStaffService
     {
-        private readonly ISatffDal _staffDall;
+        private readonly IStaffDal _staffDall;
 
-        public StaffManager(ISatffDal staffDall)
+        public StaffManager(IStaffDal staffDall)
         {
             _staffDall = staffDall;
         }

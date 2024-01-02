@@ -4,14 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HotelProject.BusinessLayer\HotelProject.BusinessLayer.csproj" />
+    <ProjectReference Include="..\HotelProjectDataAccessLayer\HotelProjectDataAccessLayer.csproj" />
   </ItemGroup>
 
 </Project>
